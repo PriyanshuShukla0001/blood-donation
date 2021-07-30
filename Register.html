@@ -1,0 +1,67 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+<section>
+    <form action="index.html" method="post">
+
+        <h1>Register For Blood Donation</h1>
+
+        <fieldset>
+            <legend><span class="number">1</span>Your basic info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
+
+            <label for="Contact Number">Contact Number:</label>
+            <input type="number" id="number" name="user_contact">
+
+            <label>Age:</label>
+            <input type="radio" id="under_30" value="under_30" name="user_age"><label for="under_13" class="light">Under
+                30</label><br>
+            <input type="radio" id="over_30" value="over_30" name="user_age"><label for="over_13" class="light">30 or
+                older</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">2</span>Details</legend>
+            <label for="Address">Address:
+            </label>
+            <textarea id="Address" name="user_Address"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="Blood">Blood Group:</label>
+            <select id="Blood" name="user_Blood">
+                <option value="">--Select--</option>
+                <option value="A+">A+</option>
+                <option value="O+">O+</option>
+                <option value="B+">B+</option>
+                <option value="AB+">AB+</option>
+                <option value="A-">A-</option>
+                <option value="O-">O-</option>
+                <option value="B-">B-</option>
+                <option value="AB-">AB-</option>
+            </select>
+
+
+            <button type="submit">Register</button>
+    </form>
+</section>
+<footer >
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Help</a>
+    <a href="#">&copy; 2021 | Blood For Need</a>
+</footer>
+</body>
+
+</html>
